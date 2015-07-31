@@ -27,7 +27,7 @@ var scopeInspectorGetScope = function scopeInspectorGetScopeFunction() {
        copy.isInherited = element.hasClass('ng-scope') ? false : true,
        copy.customProperties = makeCopy(scope, false);
        copy.fullScope = makeCopy(scope, true);
-       copy.controller = element.controller()['__proto__'];
+       //copy.controller = element.controller()['__proto__'];
     }	
 		
 	}
